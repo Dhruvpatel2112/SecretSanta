@@ -7,7 +7,7 @@ def sendMails(dict1):
     s.login("sintprd@gmail.com", "simbaproject")
     
     for name in dict1:
-        message = 'Hi, You are secret Sanata for '+name
+        message = 'Hi, You are secret Santa for '+name
         # sending the mail 
         s.sendmail("sintprd@gmail.com", dict1[name], message)
         print('Email :'+dict1[name]+'secret santa for : '+name)  

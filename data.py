@@ -4,7 +4,7 @@ import smtplib
 from Shuffle import *
 from sendMail import *
 
-f = open("./Participent_data.json", "r")
+f = open("./Participant_data.json", "r")
 
 
 dic1=json.load(f)
