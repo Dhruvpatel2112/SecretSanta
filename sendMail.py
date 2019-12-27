@@ -9,5 +9,6 @@ def sendMails(dict1):
     for name in dict1:
         message = 'Hi, You are secret Sanata for '+name
         # sending the mail 
-        s.sendmail("purven.dudhaiya@crestdatasys.com", dict1[name], message)    
+        s.sendmail("sintprd@gmail.com", dict1[name], message)
+        print('Email :'+dict1[name]+'secret santa for : '+name)  
     s.quit()
